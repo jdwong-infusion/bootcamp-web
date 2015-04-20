@@ -1,0 +1,57 @@
+.answers .first.box ,
+.answers .second.box,
+.answers .third.box,
+.answers .fish.box {
+    border: 1px solid black;
+}
+
+.answers .phase.one .first.box {
+    display: inline-block;
+    text-transform: capitalize;
+}
+.answers .phase.one .second.box {
+    display: inline-block;
+    text-transform: lowercase;
+}
+.answers .phase.one .third.box {
+    display: inline-block;
+    text-transform: lowercase;
+}
+
+.answers .phase.two .first.box {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.answers .phase.two .second.box {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.answers .phase.two .third.box {
+    position: relative;
+    top: 50px;
+    float: right;
+}
+
+.answers .phase.three .first.box {
+    padding: 50px;
+}
+.answers .phase.three .second.box {
+    width: 154px;
+    margin: 0 auto;
+}
+
+.answers .phase.four .fish.box {
+    float: right;
+}
+.answers .phase.four .fish.box:nth-of-type(2) {
+    color: red;
+}
+.answers .phase.four .fish.box:nth-of-type(1) {
+    color: blue;
+}
+.answers .phase.four .fish.box:nth-child(odd) {
+    font-weight: bold;
+}
+
